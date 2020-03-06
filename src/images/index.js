@@ -9,3 +9,5 @@ export { default as vijayPhoto } from './vijay.png';
 export { default as violetaPhoto } from './violeta.jpg';
 export { default as yosevuPhoto } from './yosevu.jpg';
 export { default as patrickPhoto } from './patrick.jpg';
+export { default as shreyaPhoto } from './shreya.png';
+export { default as anithaPhoto } from './anitha.png';

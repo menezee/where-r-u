@@ -1,6 +1,8 @@
 .container {
     display: flex;
     flex-direction: column;
+    font-family: Courier New;
+    font-size: 1.5rem;
 }
 
 .row {
@@ -13,4 +15,15 @@
 
 .row:first-child {
     border-top: none;
+}
+
+.night {
+    background: rgb(89,87,129);
+    background: linear-gradient(90deg, rgba(89,87,129,1) 0%, rgba(11,187,223,1) 100%);
+    color: white;
+}
+
+.day {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(223,208,11,1) 100%);
 }

@@ -9,7 +9,9 @@ import {
   vijayPhoto,
   violetaPhoto,
   yosevuPhoto,
-  patrickPhoto
+  patrickPhoto,
+  anithaPhoto,
+  shreyaPhoto,
 } from './images';
 
 const TIME_ZONES = {
@@ -19,7 +21,7 @@ const TIME_ZONES = {
 };
 
 const TIME_MARKS = [
-  '17', '18', '19', '20', '21', '22', '23', '24', '01', '02', '03', '04',
+  '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20',
 ];
 
 const CATEGORY_TEAM = [
@@ -28,13 +30,13 @@ const CATEGORY_TEAM = [
   { name: 'Yosevu', timeZone: TIME_ZONES.OHIO, photo: yosevuPhoto },
   { name: 'Brandon', timeZone: TIME_ZONES.OHIO, photo: brandonPhoto },
   { name: 'Patrick', timeZone: TIME_ZONES.OHIO, photo: patrickPhoto },
-  // { name: 'Shreya', timeZone: TIME_ZONES.SAN_FRANCISCO, photo: shr },
+  { name: 'Shreya', timeZone: TIME_ZONES.SAN_FRANCISCO, photo: shreyaPhoto },
   { name: 'Erich', timeZone: TIME_ZONES.BRAZIL, photo: erichPhoto },
   { name: 'Vijay', timeZone: TIME_ZONES.SAN_FRANCISCO, photo: vijayPhoto },
   { name: 'Violeta', timeZone: TIME_ZONES.SAN_FRANCISCO, photo: violetaPhoto },
   { name: 'Peter', timeZone: TIME_ZONES.SAN_FRANCISCO, photo: peterPhoto },
   { name: 'Shaw', timeZone: TIME_ZONES.SAN_FRANCISCO, photo: shawPhoto },
-  { name: 'Anitha', timeZone: TIME_ZONES.SAN_FRANCISCO, photo: aniaPhoto },
+  { name: 'Anitha', timeZone: TIME_ZONES.SAN_FRANCISCO, photo: anithaPhoto },
   { name: 'Ania', timeZone: TIME_ZONES.SAN_FRANCISCO, photo: aniaPhoto },
 ];
 

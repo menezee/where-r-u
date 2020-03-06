@@ -13,6 +13,18 @@ function App() {
     return new Date().toLocaleString('en-US', {...maybeTimeZone, ...DATE_OPTIONS, });
   };
 
+  const getTimeLabel = time => {
+    const timeAsNumber = Number(time);
+
+    const isNight = timeAsNumber > 18 || timeAsNumber < 7;
+
+    if (isNight) {
+      return 'night';
+    }
+
+    return 'day';
+  };
+
   const [timeMarks] =
     useState(() => {
       const workinsHoursMap = new Map([...TIME_MARKS.map(timeMark => [timeMark, []])]);
@@ -34,7 +46,7 @@ function App() {
       {
         mapToArr(timeMarks).map(([time, members]) =>
           <div
-            className={styles.row}
+            className={`${styles.row} ${styles[getTimeLabel(time)]}`}
             key={time}
           >
             <div>
