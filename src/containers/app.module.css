@@ -1,3 +1,16 @@
 .container {
     display: flex;
+    flex-direction: column;
+}
+
+.row {
+    min-height: 70px;
+    width: 100%;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.row:first-child {
+    border-top: none;
 }

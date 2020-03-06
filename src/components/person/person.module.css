@@ -1,4 +1,9 @@
 .column {
     flex-basis: 7.69230769%;
     text-align: center;
+    flex-direction: column;
+}
+
+.photo {
+    max-height: 60px;
 }
