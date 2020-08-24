@@ -1,13 +1,12 @@
 export { default as aniaPhoto } from './ania.png';
 export { default as brandonPhoto } from './brandon.png';
 export { default as byronPhoto } from './byron.jpg';
-export { default as catherinePhoto } from './catherine.jpg';
 export { default as erichPhoto } from './erich.png';
 export { default as peterPhoto } from './peter.png';
-export { default as shawPhoto } from './shaw.png';
 export { default as vijayPhoto } from './vijay.png';
-export { default as violetaPhoto } from './violeta.jpg';
-export { default as yosevuPhoto } from './yosevu.jpg';
 export { default as patrickPhoto } from './patrick.jpg';
-export { default as shreyaPhoto } from './shreya.png';
 export { default as anithaPhoto } from './anitha.png';
+export { default as jucienyPhoto } from './jucieny.jpg';
+export { default as pedroPhoto } from './pedro.jpg';
+export { default as stephanoPhoto } from './stephano.jpg';
+export { default as thainaraPhoto } from './thainara.jpg';

@@ -2,16 +2,15 @@ import {
   aniaPhoto,
   brandonPhoto,
   byronPhoto,
-  catherinePhoto,
   erichPhoto,
   peterPhoto,
-  shawPhoto,
   vijayPhoto,
-  violetaPhoto,
-  yosevuPhoto,
   patrickPhoto,
   anithaPhoto,
-  shreyaPhoto,
+  jucienyPhoto,
+  pedroPhoto,
+  stephanoPhoto,
+  thainaraPhoto,
 } from './images';
 
 const TIME_ZONES = {
@@ -26,16 +25,15 @@ const TIME_MARKS = [
 
 const CATEGORY_TEAM = [
   { name: 'Byron', timeZone: TIME_ZONES.OHIO, photo: byronPhoto },
-  { name: 'Catherine', timeZone: TIME_ZONES.OHIO, photo: catherinePhoto },
-  { name: 'Yosevu', timeZone: TIME_ZONES.OHIO, photo: yosevuPhoto },
   { name: 'Brandon', timeZone: TIME_ZONES.OHIO, photo: brandonPhoto },
   { name: 'Patrick', timeZone: TIME_ZONES.OHIO, photo: patrickPhoto },
-  { name: 'Shreya', timeZone: TIME_ZONES.SAN_FRANCISCO, photo: shreyaPhoto },
   { name: 'Erich', timeZone: TIME_ZONES.BRAZIL, photo: erichPhoto },
+  { name: 'Jucieny', timeZone: TIME_ZONES.BRAZIL, photo: jucienyPhoto },
+  { name: 'Pedro', timeZone: TIME_ZONES.BRAZIL, photo: pedroPhoto },
+  { name: 'Stephano', timeZone: TIME_ZONES.BRAZIL, photo: stephanoPhoto },
+  { name: 'Thainara', timeZone: TIME_ZONES.BRAZIL, photo: thainaraPhoto },
   { name: 'Vijay', timeZone: TIME_ZONES.SAN_FRANCISCO, photo: vijayPhoto },
-  { name: 'Violeta', timeZone: TIME_ZONES.SAN_FRANCISCO, photo: violetaPhoto },
   { name: 'Peter', timeZone: TIME_ZONES.SAN_FRANCISCO, photo: peterPhoto },
-  { name: 'Shaw', timeZone: TIME_ZONES.SAN_FRANCISCO, photo: shawPhoto },
   { name: 'Anitha', timeZone: TIME_ZONES.SAN_FRANCISCO, photo: anithaPhoto },
   { name: 'Ania', timeZone: TIME_ZONES.SAN_FRANCISCO, photo: aniaPhoto },
 ];
